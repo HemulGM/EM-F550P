@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
   Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Xml.XMLIntf, Vcl.StdCtrls,
-  Xml.XMLDoc, System.Generics.Collections, TableDraw, Vcl.Buttons, sSpeedButton,
+  Xml.XMLDoc, System.Generics.Collections, TableDraw, Vcl.Buttons,
   Vcl.ExtCtrls, Vcl.ComCtrls, ShellAPI, ShlObj, ActiveX, System.Win.ComObj, IniFiles,
   LabelButton, Vcl.ImgList, System.ImageList, Vcl.Grids, Xml.xmldom, MSXML;
 
@@ -63,7 +63,6 @@ type
     PanelSaveTo: TPanel;
     Label1: TLabel;
     EditSaveTo: TEdit;
-    SpeedButtonSaveTo: TsSpeedButton;
     ImageList: TImageList;
     ComboBoxSave: TComboBox;
     PanelMenu: TPanel;
@@ -92,6 +91,7 @@ type
     TableExNote: TTableEx;
     Splitter1: TSplitter;
     Label8: TLabelEx;
+    SpeedButtonSaveTo: TButton;
     procedure ButtonProcessClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure TableExFilesGetData(FCol, FRow: Integer; var Value: string);

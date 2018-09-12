@@ -43,25 +43,6 @@ object FormMain: TFormMain
       Caption = #1057#1086#1093#1088#1072#1085#1077#1085#1080#1077
       ExplicitWidth = 81
     end
-    object SpeedButtonSaveTo: TsSpeedButton
-      AlignWithMargins = True
-      Left = 1085
-      Top = 28
-      Width = 28
-      Height = 28
-      Hint = #1042#1099#1073#1088#1072#1090#1100' '#1082#1072#1090#1072#1083#1086#1075' '#1076#1083#1103' '#1089#1086#1093#1088#1072#1085#1077#1085#1080#1103' '#1082#1086#1085#1077#1095#1085#1099#1093' '#1092#1072#1081#1083#1086#1074
-      Margins.Left = 5
-      Margins.Top = 4
-      Margins.Right = 5
-      Margins.Bottom = 4
-      Align = alRight
-      Visible = False
-      OnClick = SpeedButtonSaveToClick
-      Images = ImageList
-      ImageIndex = 0
-      ExplicitLeft = 830
-      ExplicitTop = 25
-    end
     object EditSaveTo: TEdit
       AlignWithMargins = True
       Left = 155
@@ -102,6 +83,27 @@ object FormMain: TFormMain
       Items.Strings = (
         #1056#1103#1076#1086#1084' '#1089' '#1092#1072#1081#1083#1086#1084
         #1042' '#1082#1072#1090#1072#1083#1086#1075)
+    end
+    object SpeedButtonSaveTo: TButton
+      AlignWithMargins = True
+      Left = 1085
+      Top = 28
+      Width = 28
+      Height = 28
+      Hint = #1042#1099#1073#1088#1072#1090#1100' '#1082#1072#1090#1072#1083#1086#1075' '#1076#1083#1103' '#1089#1086#1093#1088#1072#1085#1077#1085#1080#1103' '#1082#1086#1085#1077#1095#1085#1099#1093' '#1092#1072#1081#1083#1086#1074
+      Margins.Left = 5
+      Margins.Top = 4
+      Margins.Right = 5
+      Margins.Bottom = 4
+      Align = alRight
+      ImageAlignment = iaCenter
+      ImageIndex = 0
+      Images = ImageList
+      TabOrder = 2
+      Visible = False
+      WordWrap = True
+      OnClick = SpeedButtonSaveToClick
+      ExplicitLeft = 1047
     end
   end
   object PanelMenu: TPanel
@@ -155,7 +157,6 @@ object FormMain: TFormMain
       TextFormat = [taVCenter, taCenter, taWordBrake]
       IgnorBounds = True
       EllipseRectVertical = False
-      StyledColor = 15132390
       ExplicitTop = 10
       ExplicitHeight = 30
     end
@@ -532,7 +533,6 @@ object FormMain: TFormMain
       TextFormat = [taVCenter, taCenter, taWordBrake]
       IgnorBounds = True
       EllipseRectVertical = False
-      StyledColor = 15132390
       ExplicitLeft = 85
       ExplicitTop = 42
       ExplicitWidth = 1018
@@ -577,6 +577,7 @@ object FormMain: TFormMain
       Margins.Top = 15
       Margins.Right = 15
       Margins.Bottom = 15
+      ProcEmpty = False
       ColumnsHeight = 30
       Align = alClient
       BorderStyle = bsNone
@@ -633,6 +634,7 @@ object FormMain: TFormMain
       Margins.Top = 15
       Margins.Right = 15
       Margins.Bottom = 15
+      ProcEmpty = False
       ColumnsHeight = 30
       Align = alBottom
       BorderStyle = bsNone
@@ -693,7 +695,7 @@ object FormMain: TFormMain
     Left = 888
     Top = 520
     Bitmap = {
-      494C010104001000280018001800FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C0101040010002C0018001800FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000600000003000000001002000000000000048
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
