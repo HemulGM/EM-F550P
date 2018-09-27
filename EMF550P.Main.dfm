@@ -103,7 +103,6 @@ object FormMain: TFormMain
       Visible = False
       WordWrap = True
       OnClick = SpeedButtonSaveToClick
-      ExplicitLeft = 1047
     end
   end
   object PanelMenu: TPanel
@@ -154,7 +153,7 @@ object FormMain: TFormMain
       Font.Height = -15
       Font.Name = 'Segoe UI'
       Font.Style = []
-      TextFormat = [taVCenter, taCenter, taWordBrake]
+      TextFormat = [tfCenter, tfSingleLine, tfVerticalCenter, tfWordBreak, tfWordEllipsis]
       IgnorBounds = True
       EllipseRectVertical = False
       ExplicitTop = 10
@@ -530,7 +529,7 @@ object FormMain: TFormMain
       Font.Height = -20
       Font.Name = 'Tahoma'
       Font.Style = []
-      TextFormat = [taVCenter, taCenter, taWordBrake]
+      TextFormat = [tfCenter, tfSingleLine, tfVerticalCenter, tfWordBreak, tfWordEllipsis]
       IgnorBounds = True
       EllipseRectVertical = False
       ExplicitLeft = 85
@@ -577,8 +576,6 @@ object FormMain: TFormMain
       Margins.Top = 15
       Margins.Right = 15
       Margins.Bottom = 15
-      ProcEmpty = False
-      ColumnsHeight = 30
       Align = alClient
       BorderStyle = bsNone
       Color = 15132390
@@ -589,13 +586,11 @@ object FormMain: TFormMain
       OnItemColClick = TableExFilesItemColClick
       GetData = TableExFilesGetData
       CanNoSelect = False
-      VisibleEdit = True
       ItemCount = 1
       LineColor = 15132390
       LineColorXor = 15132390
       LineHotColor = 13553358
       LineSelColor = 10526880
-      ColumnsColor = 14474460
       FontHotLine.Charset = DEFAULT_CHARSET
       FontHotLine.Color = 2631720
       FontHotLine.Height = -15
@@ -616,9 +611,6 @@ object FormMain: TFormMain
       ColumnsFont.Height = -13
       ColumnsFont.Name = 'Tahoma'
       ColumnsFont.Style = []
-      SetFocusOnEnter = False
-      DrawColumnBorded = True
-      FlashSelectedCol = False
       ColWidths = (
         60)
       RowHeights = (
@@ -634,8 +626,6 @@ object FormMain: TFormMain
       Margins.Top = 15
       Margins.Right = 15
       Margins.Bottom = 15
-      ProcEmpty = False
-      ColumnsHeight = 30
       Align = alBottom
       BorderStyle = bsNone
       Color = 15132390
@@ -647,13 +637,11 @@ object FormMain: TFormMain
       ItemIndex = -1
       GetData = TableExNoteGetData
       CanNoSelect = False
-      VisibleEdit = True
       ItemCount = 1
       LineColor = 15132390
       LineColorXor = 15132390
       LineHotColor = 13553358
       LineSelColor = 10526880
-      ColumnsColor = 14474460
       FontHotLine.Charset = DEFAULT_CHARSET
       FontHotLine.Color = 2631720
       FontHotLine.Height = -15
@@ -675,9 +663,6 @@ object FormMain: TFormMain
       ColumnsFont.Height = -13
       ColumnsFont.Name = 'Tahoma'
       ColumnsFont.Style = []
-      SetFocusOnEnter = False
-      DrawColumnBorded = True
-      FlashSelectedCol = False
       ColWidths = (
         60)
       RowHeights = (
@@ -695,7 +680,7 @@ object FormMain: TFormMain
     Left = 888
     Top = 520
     Bitmap = {
-      494C0101040010002C0018001800FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C010104001000300018001800FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000600000003000000001002000000000000048
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

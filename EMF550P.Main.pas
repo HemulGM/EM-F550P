@@ -5,9 +5,9 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
   Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Xml.XMLIntf, Vcl.StdCtrls,
-  Xml.XMLDoc, System.Generics.Collections, TableDraw, Vcl.Buttons,
+  Xml.XMLDoc, System.Generics.Collections, HGM.Controls.VirtualTable, Vcl.Buttons,
   Vcl.ExtCtrls, Vcl.ComCtrls, ShellAPI, ShlObj, ActiveX, System.Win.ComObj, IniFiles,
-  LabelButton, Vcl.ImgList, System.ImageList, Vcl.Grids, Xml.xmldom, MSXML;
+  HGM.Controls.Labels, Vcl.ImgList, System.ImageList, Vcl.Grids, Xml.xmldom, MSXML;
 
 type
 
