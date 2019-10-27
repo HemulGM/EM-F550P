@@ -585,6 +585,7 @@ object FormMain: TFormMain
       ItemIndex = -1
       OnItemColClick = TableExFilesItemColClick
       GetData = TableExFilesGetData
+      Columns = <>
       CanNoSelect = False
       ItemCount = 1
       LineColor = 15132390
@@ -611,11 +612,6 @@ object FormMain: TFormMain
       ColumnsFont.Height = -13
       ColumnsFont.Name = 'Tahoma'
       ColumnsFont.Style = []
-      ColWidths = (
-        60)
-      RowHeights = (
-        30
-        25)
     end
     object TableExNote: TTableEx
       Left = 0
@@ -636,6 +632,7 @@ object FormMain: TFormMain
       OnDrawCellData = TableExNoteDrawCellData
       ItemIndex = -1
       GetData = TableExNoteGetData
+      Columns = <>
       CanNoSelect = False
       ItemCount = 1
       LineColor = 15132390
@@ -663,10 +660,6 @@ object FormMain: TFormMain
       ColumnsFont.Height = -13
       ColumnsFont.Name = 'Tahoma'
       ColumnsFont.Style = []
-      ColWidths = (
-        60)
-      RowHeights = (
-        25)
     end
   end
   object XMLDocument: TXMLDocument
@@ -680,7 +673,7 @@ object FormMain: TFormMain
     Left = 888
     Top = 520
     Bitmap = {
-      494C010104001000300018001800FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C010104001000340018001800FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000600000003000000001002000000000000048
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
