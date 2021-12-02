@@ -4,8 +4,8 @@ object FormMain: TFormMain
   Caption = 
     #1059#1074#1077#1076#1086#1084#1083#1077#1085#1080#1077' '#1086' '#1087#1088#1080#1085#1103#1090#1080#1080' ('#1085#1077#1087#1088#1080#1085#1103#1090#1080#1080') '#1101#1083#1077#1082#1090#1088#1086#1085#1085#1086#1075#1086' '#1089#1086#1086#1073#1097#1077#1085#1080#1103' (550 ' +
     #1055')'
-  ClientHeight = 650
-  ClientWidth = 1118
+  ClientHeight = 603
+  ClientWidth = 1047
   Color = 15856113
   Constraints.MinHeight = 550
   Constraints.MinWidth = 900
@@ -24,19 +24,21 @@ object FormMain: TFormMain
   TextHeight = 18
   object PanelSaveTo: TPanel
     Left = 0
-    Top = 590
-    Width = 1118
+    Top = 543
+    Width = 1047
     Height = 60
     Align = alBottom
     BevelOuter = bvNone
     Color = 15132390
     ParentBackground = False
     TabOrder = 0
+    ExplicitTop = 590
+    ExplicitWidth = 1118
     object Label1: TLabel
       AlignWithMargins = True
       Left = 5
       Top = 3
-      Width = 1110
+      Width = 1039
       Height = 18
       Margins.Left = 5
       Align = alTop
@@ -47,7 +49,7 @@ object FormMain: TFormMain
       AlignWithMargins = True
       Left = 155
       Top = 29
-      Width = 925
+      Width = 854
       Height = 26
       Hint = #1050#1072#1090#1072#1083#1086#1075' '#1089#1086#1093#1088#1072#1085#1077#1085#1080#1103' '#1092#1072#1081#1083#1086#1074
       Margins.Left = 0
@@ -62,6 +64,7 @@ object FormMain: TFormMain
       Color = 15790320
       TabOrder = 1
       Visible = False
+      ExplicitWidth = 925
     end
     object ComboBoxSave: TComboBox
       AlignWithMargins = True
@@ -86,7 +89,7 @@ object FormMain: TFormMain
     end
     object SpeedButtonSaveTo: TButton
       AlignWithMargins = True
-      Left = 1085
+      Left = 1014
       Top = 28
       Width = 28
       Height = 28
@@ -103,21 +106,23 @@ object FormMain: TFormMain
       Visible = False
       WordWrap = True
       OnClick = SpeedButtonSaveToClick
+      ExplicitLeft = 1085
     end
   end
   object PanelMenu: TPanel
     Left = 0
     Top = 0
-    Width = 1118
+    Width = 1047
     Height = 50
     Align = alTop
     BevelOuter = bvNone
     Color = 15132390
     ParentBackground = False
     TabOrder = 1
+    ExplicitWidth = 1118
     object LabelWait: TLabel
       AlignWithMargins = True
-      Left = 968
+      Left = 897
       Top = 3
       Width = 147
       Height = 44
@@ -132,6 +137,7 @@ object FormMain: TFormMain
       ParentFont = False
       Layout = tlCenter
       Visible = False
+      ExplicitLeft = 968
     end
     object Label8: TLabelEx
       AlignWithMargins = True
@@ -213,7 +219,7 @@ object FormMain: TFormMain
     Left = 15
     Top = 65
     Width = 240
-    Height = 510
+    Height = 463
     Margins.Left = 15
     Margins.Top = 15
     Margins.Right = 0
@@ -229,10 +235,11 @@ object FormMain: TFormMain
     ParentBackground = False
     ParentFont = False
     TabOrder = 2
+    ExplicitHeight = 510
     object Label2: TLabel
       AlignWithMargins = True
       Left = 5
-      Top = 375
+      Top = 328
       Width = 230
       Height = 21
       Margins.Left = 5
@@ -247,6 +254,7 @@ object FormMain: TFormMain
       Font.Name = 'Tahoma'
       Font.Style = []
       ParentFont = False
+      ExplicitTop = 375
       ExplicitWidth = 162
     end
     object Label3: TLabel
@@ -336,7 +344,7 @@ object FormMain: TFormMain
     object Label7: TLabel
       AlignWithMargins = True
       Left = 3
-      Top = 468
+      Top = 421
       Width = 234
       Height = 39
       Align = alBottom
@@ -351,42 +359,45 @@ object FormMain: TFormMain
       Font.Style = []
       ParentFont = False
       WordWrap = True
+      ExplicitTop = 468
       ExplicitWidth = 233
     end
     object DateTimePickerTime: TDateTimePicker
       AlignWithMargins = True
       Left = 8
-      Top = 436
+      Top = 389
       Width = 224
       Height = 26
       Hint = #1042#1088#1077#1084#1103' '#1092#1086#1088#1084#1080#1088#1086#1074#1072#1085#1080#1103' '#1091#1074#1077#1076#1086#1084#1083#1077#1085#1080#1103
       Margins.Left = 8
       Margins.Right = 8
       Align = alBottom
-      Date = 43181.504853090280000000
-      Time = 43181.504853090280000000
+      Date = 43181.000000000000000000
+      Time = 0.504853090278629700
       ShowCheckbox = True
       Checked = False
       Kind = dtkTime
       TabOrder = 0
       OnClick = DateTimePickerTimeClick
+      ExplicitTop = 436
     end
     object DateTimePickerDate: TDateTimePicker
       AlignWithMargins = True
       Left = 8
-      Top = 404
+      Top = 357
       Width = 224
       Height = 26
       Hint = #1044#1072#1090#1072' '#1092#1086#1088#1084#1080#1088#1086#1074#1072#1085#1080#1103' '#1091#1074#1077#1086#1084#1083#1077#1085#1080#1103
       Margins.Left = 8
       Margins.Right = 8
       Align = alBottom
-      Date = 43181.504853090280000000
-      Time = 43181.504853090280000000
+      Date = 43181.000000000000000000
+      Time = 0.504853090278629700
       ShowCheckbox = True
       Checked = False
       TabOrder = 1
       OnClick = DateTimePickerDateClick
+      ExplicitTop = 404
     end
     object EditINN: TEdit
       AlignWithMargins = True
@@ -494,8 +505,8 @@ object FormMain: TFormMain
     AlignWithMargins = True
     Left = 270
     Top = 65
-    Width = 833
-    Height = 510
+    Width = 762
+    Height = 463
     Margins.Left = 15
     Margins.Top = 15
     Margins.Right = 15
@@ -507,12 +518,14 @@ object FormMain: TFormMain
     ParentBackground = False
     TabOrder = 3
     Visible = False
+    ExplicitWidth = 833
+    ExplicitHeight = 510
     object LabelExDrag: TLabelEx
       AlignWithMargins = True
       Left = 30
       Top = 30
-      Width = 773
-      Height = 450
+      Width = 702
+      Height = 403
       Margins.Left = 30
       Margins.Top = 30
       Margins.Right = 30
@@ -542,8 +555,8 @@ object FormMain: TFormMain
     AlignWithMargins = True
     Left = 270
     Top = 65
-    Width = 833
-    Height = 510
+    Width = 762
+    Height = 463
     Margins.Left = 15
     Margins.Top = 15
     Margins.Right = 15
@@ -554,10 +567,12 @@ object FormMain: TFormMain
     Color = 15132390
     ParentBackground = False
     TabOrder = 4
+    ExplicitWidth = 833
+    ExplicitHeight = 510
     object Splitter1: TSplitter
       Left = 0
-      Top = 307
-      Width = 833
+      Top = 260
+      Width = 762
       Height = 5
       Cursor = crVSplit
       Align = alBottom
@@ -566,12 +581,13 @@ object FormMain: TFormMain
       ParentColor = False
       ResizeStyle = rsUpdate
       ExplicitTop = 293
+      ExplicitWidth = 833
     end
     object TableExFiles: TTableEx
       Left = 0
       Top = 0
-      Width = 833
-      Height = 307
+      Width = 762
+      Height = 260
       Margins.Left = 15
       Margins.Top = 15
       Margins.Right = 15
@@ -581,6 +597,7 @@ object FormMain: TFormMain
       Color = 15132390
       DefaultRowHeight = 25
       TabOrder = 0
+      StyleElements = [seBorder]
       OnDblClick = TableExFilesDblClick
       ItemIndex = -1
       OnItemColClick = TableExFilesItemColClick
@@ -615,8 +632,8 @@ object FormMain: TFormMain
     end
     object TableExNote: TTableEx
       Left = 0
-      Top = 312
-      Width = 833
+      Top = 265
+      Width = 762
       Height = 198
       Margins.Left = 15
       Margins.Top = 15
@@ -628,6 +645,7 @@ object FormMain: TFormMain
       Constraints.MinHeight = 50
       DefaultRowHeight = 25
       TabOrder = 1
+      StyleElements = [seBorder]
       OnDblClick = TableExNoteDblClick
       OnDrawCellData = TableExNoteDrawCellData
       ItemIndex = -1
@@ -673,7 +691,7 @@ object FormMain: TFormMain
     Left = 888
     Top = 520
     Bitmap = {
-      494C010104001000340018001800FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C010104001000040018001800FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000600000003000000001002000000000000048
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
